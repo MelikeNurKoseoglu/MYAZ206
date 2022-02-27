@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{06B4BBDA-FA4D-4E75-9112-81B842EA13E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructers", "DataStructers", "{A01E3EEB-E4E7-4974-BA2F-245C82AC2127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E332E66D-A34F-41B7-9688-749A49A8F213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationTests", "ApplicationTests", "{BC256829-1D7B-44CF-971C-C5BA6370BE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VYLab1", "VYLab1\VYLab1.csproj", "{7DD91332-151D-45F8-A427-7334D220998B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{39159060-41AF-4B37-AC02-081E062BC9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLimitsOfDataTypes", "TheLimitsOfDataTypes\TheLimitsOfDataTypes.csproj", "{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypesTests", "ValueAndReferenceTypesTests\ValueAndReferenceTypesTests.csproj", "{442691AB-A244-48C1-9FC9-825AA25EE418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD91332-151D-45F8-A427-7334D220998B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD91332-151D-45F8-A427-7334D220998B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD91332-151D-45F8-A427-7334D220998B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD91332-151D-45F8-A427-7334D220998B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39159060-41AF-4B37-AC02-081E062BC9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39159060-41AF-4B37-AC02-081E062BC9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39159060-41AF-4B37-AC02-081E062BC9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39159060-41AF-4B37-AC02-081E062BC9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442691AB-A244-48C1-9FC9-825AA25EE418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442691AB-A244-48C1-9FC9-825AA25EE418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442691AB-A244-48C1-9FC9-825AA25EE418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442691AB-A244-48C1-9FC9-825AA25EE418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC256829-1D7B-44CF-971C-C5BA6370BE04} = {E332E66D-A34F-41B7-9688-749A49A8F213}
+		{7DD91332-151D-45F8-A427-7334D220998B} = {06B4BBDA-FA4D-4E75-9112-81B842EA13E7}
+		{39159060-41AF-4B37-AC02-081E062BC9B9} = {06B4BBDA-FA4D-4E75-9112-81B842EA13E7}
+		{E6C05164-DAD4-4B51-9E67-CBE19EA3CF08} = {BC256829-1D7B-44CF-971C-C5BA6370BE04}
+		{442691AB-A244-48C1-9FC9-825AA25EE418} = {BC256829-1D7B-44CF-971C-C5BA6370BE04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD20578-C7CC-4363-9D6A-A36827725A4B}
+	EndGlobalSection
+EndGlobal
